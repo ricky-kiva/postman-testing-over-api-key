@@ -1,0 +1,15 @@
+{
+  "name": "postman-testing-over-api-key",
+  "version": "1.0.0",
+  "description": "Postman testing over API Key, because Postman Collection Runner usage is limited",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "postman",
+    "newman"
+  ],
+  "author": "Rickyslash",
+  "license": "ISC"
+}
