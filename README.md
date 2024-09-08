@@ -6,16 +6,16 @@ Postman testing over API Key, created to bypass the limitations of Postman Colle
 
 Ensure the following dependencies are added to your project:
 
-- <a href="https://www.npmjs.com/package/dotenv" target="_blank">dotenv</a>
-- <a href="https://www.npmjs.com/package/cross-env" target="_blank">cross-env</a>
-- <a href="https://www.npmjs.com/package/newman" target="_blank">newman</a>
+- [`dotenv`](https://www.npmjs.com/package/dotenv)
+- [`cross-env`](https://www.npmjs.com/package/cross-env)
+- [`newman`](https://www.npmjs.com/package/newman)
 
 ## Getting Started
 
 To integrate this setup into your project, follow these steps:
 
 1. **Copy Postman Directory**  
-   Clone or download the <a href="https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fricky-kiva%2Fpostman-testing-over-api-key%2Ftree%2Fmain%2Fpostman" target="_blank">postman</a> folder from this repository and place it in the root of your project directory.
+   Clone or download the [`postman`](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fricky-kiva%2Fpostman-testing-over-api-key%2Ftree%2Fmain%2Fpostman) folder from this repository and place it in the root of your project directory.
 
 2. **Install Dependencies**  
    Install the required dependencies using npm:
