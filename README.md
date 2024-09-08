@@ -6,16 +6,16 @@ Postman testing over API Key, created to bypass the limitations of Postman Colle
 
 Ensure the following dependencies are added to your project:
 
-- [`dotenv`](https://www.npmjs.com/package/dotenv)
-- [`cross-env`](https://www.npmjs.com/package/cross-env)
-- [`newman`](https://www.npmjs.com/package/newman)
+- <a href="https://www.npmjs.com/package/dotenv" target="_blank">dotenv</a>
+- <a href="https://www.npmjs.com/package/cross-env" target="_blank">cross-env</a>
+- <a href="https://www.npmjs.com/package/newman" target="_blank">newman</a>
 
 ## Getting Started
 
 To integrate this setup into your project, follow these steps:
 
 1. **Copy Postman Directory**  
-   Clone or download the [`postman`](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fricky-kiva%2Fpostman-testing-over-api-key%2Ftree%2Fmain%2Fpostman) folder from this repository and place it in the root of your project directory.
+   Clone or download the <a href="https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fricky-kiva%2Fpostman-testing-over-api-key%2Ftree%2Fmain%2Fpostman" target="_blank">postman</a> folder from this repository and place it in the root of your project directory.
 
 2. **Install Dependencies**  
    Install the required dependencies using npm:
@@ -34,9 +34,9 @@ To integrate this setup into your project, follow these steps:
 
 4. **Configure Environment Variables**  
    Update your `.env` file with the following values:
-   - **Postman API Key**: Get from https://web.postman.co/settings/me/api-keys.
-   - **Postman Collection UID (*dev* & *prod*)**: Get from https://api.getpostman.com/collections?apikey={YOUR_API_KEY}.
-   - **Postman Environment UID (*dev* & *prod*)**: Get from https://api.getpostman.com/environments?apikey={YOUR_API_KEY}.
+   - **Postman API Key**: Get from ```https://web.postman.co/settings/me/api-keys```
+   - **Postman Collection UID (*dev* & *prod*)**: Get from ```https://api.getpostman.com/collections?apikey={YOUR_API_KEY}```
+   - **Postman Environment UID (*dev* & *prod*)**: Get from ```https://api.getpostman.com/environments?apikey={YOUR_API_KEY}```
 
    *Note:*
    - *Prod* UID is optional. Without `--prod`, *dev* UIDs are used. You can reuse the *dev* UID for both.
