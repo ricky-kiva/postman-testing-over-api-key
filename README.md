@@ -45,12 +45,12 @@ To integrate this setup into your project, follow these steps:
 
 Use the npm scripts to run your tests with or without environment exports.
 
-### a. Run tests and export the *dev* collection & environment
+### a. Run tests, with the *dev* collection & environment exported
 ```bash
 npm run newman -- --export
 ```
 
-### b. Run tests and export the *prod* collection & environment
+### b. Run tests, with the *prod* collection & environment exported
 ```bash
 npm run newman -- --export --prod
 ```
